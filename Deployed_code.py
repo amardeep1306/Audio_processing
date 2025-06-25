@@ -5,8 +5,8 @@ import pickle
 import os
 
 # Load trained model and label encoder
-model_path = "xgb_model_audio.pkl"
-encoder_path = "label_encoder_audio.pkl"
+model_path = "xgb_model_file.pkl"
+encoder_path = "label_encoder.pkl"
 
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
